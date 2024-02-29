@@ -8,6 +8,7 @@ import { validateAndParseAddress } from '../utils/validateAndParseAddress';
 export class Token extends AbstractCurrency {
   public readonly chainId: number;
   public readonly address: string;
+  public readonly tokenURI: string | undefined;
 
   public readonly isNative: false = false;
   public readonly isToken: true = true;
@@ -18,12 +19,14 @@ export class Token extends AbstractCurrency {
     decimals: number,
     symbol?: string,
     name?: string,
+    tokenURI?: string,
   ) {
     super(chainId, decimals, symbol, name);
     this.chainId = chainId;
+    this.tokenURI = tokenURI;
     this.address = validateAndParseAddress(address);
   }
-
+  
   /**
    * Returns true if the two tokens are equivalent, i.e. have the same chainId and address.
    * @param other other token to compare

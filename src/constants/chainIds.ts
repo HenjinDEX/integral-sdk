@@ -7,5 +7,6 @@ export const ChainId = {
     Telos: 40,
     MantleTestnet: 5001,
     TelosTestnet: 41,
-    BerachainTestnet: 2061
+    BerachainTestnet: 2061,
+    Katla: 167008
 }

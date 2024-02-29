@@ -67,5 +67,12 @@ export const WNATIVE: { [chainId: number]: Token } = {
     18,
     'BERA',
     'WRAPPED BERA'
+  ),
+  [ChainId.Katla]: new Token(
+    ChainId.Katla,
+    '0xdf10160eC9554a6E89E13342186Dd69735F523E2',
+    18,
+    'WETH',
+    'WRAPPED ETH'
   )
 };
