@@ -74,5 +74,12 @@ export const WNATIVE: { [chainId: number]: Token } = {
     18,
     'WETH',
     'WRAPPED ETH'
+  ),
+  [ChainId.Hekla]: new Token(
+    ChainId.Hekla,
+    '0x4539fb30977a7de928631f16c45354ba6fdbb9bf',
+    18,
+    'WETH',
+    'WRAPPED ETH'
   )
 };

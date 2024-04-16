@@ -11,6 +11,7 @@ export const POOL_DEPLOYER_ADDRESSES = {
     [ChainId.TelosTestnet]: '0xE63AEf68c9C80C06d241d44B3C21Da4da2E582Bd',
     [ChainId.BerachainTestnet]: '0xFb5521A236e7e8212D9741d5C71baf0283Dc5a2a',
     [ChainId.Katla]: '0x2dfFFadDE574158F6c0F84c56Db9F9745d2f0f03',
+    [ChainId.Hekla]: '0x6F2B40BD3Cf527b0d82BaE0A826B05A9df7991d4'
 }
 
 export const POOL_INIT_CODE_HASH = {
@@ -23,5 +24,6 @@ export const POOL_INIT_CODE_HASH = {
     [ChainId.MantleTestnet]: '0x177d5fbf994f4d130c008797563306f1a168dc689f81b2fa23b4396931014d91',
     [ChainId.TelosTestnet]: '0x177d5fbf994f4d130c008797563306f1a168dc689f81b2fa23b4396931014d91',
     [ChainId.BerachainTestnet]: '0x177d5fbf994f4d130c008797563306f1a168dc689f81b2fa23b4396931014d91',
-    [ChainId.Katla]: '0xf96d2474815c32e070cd63233f06af5413efc5dcb430aee4ff18cc29007c562d'
+    [ChainId.Katla]: '0xf96d2474815c32e070cd63233f06af5413efc5dcb430aee4ff18cc29007c562d',
+    [ChainId.Hekla]: '0xf96d2474815c32e070cd63233f06af5413efc5dcb430aee4ff18cc29007c562d'
 }
